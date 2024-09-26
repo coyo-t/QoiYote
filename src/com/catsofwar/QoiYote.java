@@ -22,7 +22,7 @@ public class QoiYote
 	static int lastSpace = -1;
 	
 	/**
-	 * Returns the channel count of the last QOI image decoded with CoyoteQOI.decode,
+	 * Returns the channel count of the last QOI image decoded with QoiYote.decode,
 	 * or -1 if no images have been decoded yet
 	 */
 	public static int getLastChannelCount ()
@@ -31,7 +31,7 @@ public class QoiYote
 	}
 	
 	/**
-	 * Returns the Colur Space of the last QOI image decoded with CoyoteQOI.decode,
+	 * Returns the Colur Space of the last QOI image decoded with QoiYote.decode,
 	 * or -1 if no images have been decoded yet
 	 */
 	public static int getLastSpace ()
